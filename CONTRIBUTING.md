@@ -64,6 +64,5 @@ help you write a unit test, if needed).
 ## Code of Conduct
 
 Please note that the bbousuite project is released with a [Contributor
-Code of
-Conduct](https://poissonconsulting.github.io/CODE_OF_CONDUCT.md). By
+Code of Conduct](https://LandSciTech.github.io/CODE_OF_CONDUCT.md). By
 contributing to this project you agree to abide by its terms.

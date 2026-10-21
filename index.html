@@ -49,7 +49,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/poissonconsulting/bbousuite/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/LandSciTech/bbousuite/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -67,40 +67,43 @@
 <p>It consists of:</p>
 <ul>
 <li>
-<a href="https://poissonconsulting.github.io/bboudata/" class="external-link"><code>bboudata</code></a>, a collection of simulated and anonymized empirical survival and recruitment datasets.<br>
+<a href="https://LandSciTech.github.io/bboudata/" class="external-link"><code>bboudata</code></a>, a collection of simulated and anonymized empirical survival and recruitment datasets.<br>
 </li>
 <li>
-<a href="https://poissonconsulting.github.io/bboutools/" class="external-link"><code>bboutools</code></a>, a set of functions to estimate population growth in a Bayesian or Maximum Likelihood (ML) framework, implemented under the hood using the <a href="https://r-nimble.org" class="external-link">Nimble</a> R package.<br>
+<a href="https://LandSciTech.github.io/bboutools/" class="external-link"><code>bboutools</code></a>, a set of functions to estimate population growth in a Bayesian or Maximum Likelihood (ML) framework, implemented under the hood using the <a href="https://r-nimble.org" class="external-link">Nimble</a> R package.<br>
 </li>
 <li>
-<a href="https://poissonconsulting.github.io/bboushiny/" class="external-link"><code>bboushiny</code></a>, a Graphical User Interface (GUI) to <code>bboutools</code>.<br>
+<a href="https://LandSciTech.github.io/bboushiny/" class="external-link"><code>bboushiny</code></a>, a Graphical User Interface (GUI) to <code>bboutools</code>.<br>
 </li>
 <li>
-<a href="https://poissonconsulting.github.io/bbouretro/" class="external-link"><code>bbouretro</code></a>, a set of functions to estimate population growth using traditional frequentist methods.<br>
+<a href="https://LandSciTech.github.io/bbouretro/" class="external-link"><code>bbouretro</code></a>, a set of functions to estimate population growth using traditional frequentist methods.<br>
 </li>
 <li>
-<a href="https://poissonconsulting.github.io/bbousims/" class="external-link"><code>bbousims</code></a>, a set of functions to simulate survival and recruitment data from hypothetical radio-collaring and composition surveys.</li>
+<a href="https://LandSciTech.github.io/bbousims/" class="external-link"><code>bbousims</code></a>, a set of functions to simulate survival and recruitment data from hypothetical radio-collaring and composition surveys.</li>
 </ul>
 <p>Each R package has a website with function documentation and a ‘Get Started’ guide.<br>
-If you are completely new to the <code>bbou</code> suite, we recommend taking a look at the <a href="https://poissonconsulting.github.io/bboutools/articles/bboutools.html" class="external-link">bboutools ‘Get Started’ guide</a> as this demonstrates core functionality and methods.</p>
-<p>There are also several vignettes, including <code>bboutools</code> <a href="https://poissonconsulting.github.io/bboutools/articles/methods.html" class="external-link">analytical methods</a> and <a href="https://poissonconsulting.github.io/bboutools/articles/priors.html" class="external-link">prior selection</a>, <code>bbouretro</code> <a href="https://poissonconsulting.github.io/bbouretro/articles/retro-methods.html" class="external-link">analytical methods</a>, using <a href="https://poissonconsulting.github.io/bbousims/articles/bboutools.html" class="external-link"><code>bbousims</code> with <code>bboutools</code></a>, and comparison of Bayesian and traditional method estimates with <a href="https://poissonconsulting.github.io/bbousuite/articles/empirical-comparisons.html">empirical</a> and <a href="https://poissonconsulting.github.io/bbousuite/articles/simulations.html">simulated</a> data.</p>
+If you are completely new to the <code>bbou</code> suite, we recommend taking a look at the <a href="https://LandSciTech.github.io/bboutools/articles/bboutools.html" class="external-link">bboutools ‘Get Started’ guide</a> as this demonstrates core functionality and methods.</p>
+<p>There are also several vignettes, including <code>bboutools</code> <a href="https://LandSciTech.github.io/bboutools/articles/methods.html" class="external-link">analytical methods</a> and <a href="https://LandSciTech.github.io/bboutools/articles/priors.html" class="external-link">prior selection</a>, <code>bbouretro</code> <a href="https://LandSciTech.github.io/bbouretro/articles/retro-methods.html" class="external-link">analytical methods</a>, using <a href="https://LandSciTech.github.io/bbousims/articles/bboutools.html" class="external-link"><code>bbousims</code> with <code>bboutools</code></a>, and comparison of Bayesian and traditional method estimates with <a href="https://LandSciTech.github.io/bbousuite/articles/empirical-comparisons.html">empirical</a> and <a href="https://LandSciTech.github.io/bbousuite/articles/simulations.html">simulated</a> data.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the latest version of <code>bbousuite</code> from <a href="https://github.com/poissonconsulting/bbousuite" class="external-link">GitHub</a> with:</p>
+<p>You can install the latest version of <code>bbousuite</code> from <a href="https://github.com/LandSciTech/bbousuite" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"poissonconsulting/bbousuite"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"LandSciTech/bbousuite"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="load">Load<a class="anchor" aria-label="anchor" href="#load"></a>
 </h2>
 <p>To load <code>bbousuite</code></p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/poissonconsulting/bbousuite" class="external-link">bbousuite</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/LandSciTech/bbousuite" class="external-link">bbousuite</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Attaching: bboudata bbouretro bboushiny bbousims bboutools bbousuite</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Attaching package: 'bbousuite'</span></span>
+<span><span class="co">#&gt; The following object is masked _by_ 'package:bboudata':</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt;     licensing_md</span></span>
 <span><span class="co">#&gt; The following object is masked from 'package:bboutools':</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt;     licensing_md</span></span></code></pre></div>
@@ -109,11 +112,11 @@ If you are completely new to the <code>bbou</code> suite, we recommend taking a 
 </h3>
 <p>The packages installed and loaded by <code>bbousuite</code> suite are:</p>
 <ul>
-<li><a href="https://github.com/poissonconsulting/bboudata" class="external-link">bboudata</a></li>
-<li><a href="https://github.com/poissonconsulting/bbouretro" class="external-link">bbouretro</a></li>
-<li><a href="https://github.com/poissonconsulting/bboutools" class="external-link">bboutools</a></li>
-<li><a href="https://github.com/poissonconsulting/bbousims" class="external-link">bbousims</a></li>
-<li><a href="https://github.com/poissonconsulting/bboushiny" class="external-link">bboushiny</a></li>
+<li><a href="https://github.com/LandSciTech/bboudata" class="external-link">bboudata</a></li>
+<li><a href="https://github.com/LandSciTech/bbouretro" class="external-link">bbouretro</a></li>
+<li><a href="https://github.com/LandSciTech/bboutools" class="external-link">bboutools</a></li>
+<li><a href="https://github.com/LandSciTech/bbousims" class="external-link">bbousims</a></li>
+<li><a href="https://github.com/LandSciTech/bboushiny" class="external-link">bboushiny</a></li>
 </ul>
 </div>
 </div>
@@ -125,12 +128,12 @@ If you are completely new to the <code>bbou</code> suite, we recommend taking a 
 <div class="section level2">
 <h2 id="getting-help-or-reporting-an-issue">Getting Help or Reporting an Issue<a class="anchor" aria-label="anchor" href="#getting-help-or-reporting-an-issue"></a>
 </h2>
-<p>To report bugs/issues/feature requests, please file an <a href="https://github.com/poissonconsulting/bbousuite/issues/" class="external-link">issue</a>.</p>
+<p>To report bugs/issues/feature requests, please file an <a href="https://github.com/LandSciTech/bbousuite/issues/" class="external-link">issue</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="how-to-contribute">How to Contribute<a class="anchor" aria-label="anchor" href="#how-to-contribute"></a>
 </h2>
-<p>If you would like to contribute to the package, please see our <a href="https://github.com/poissonconsulting/bbousuite/blob/master/.github/CONTRIBUTING.md" class="external-link">CONTRIBUTING</a> guidelines.</p>
+<p>If you would like to contribute to the package, please see our <a href="https://github.com/LandSciTech/bbousuite/blob/master/.github/CONTRIBUTING.md" class="external-link">CONTRIBUTING</a> guidelines.</p>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
@@ -140,8 +143,8 @@ If you are completely new to the <code>bbou</code> suite, we recommend taking a 
 <div class="section level2">
 <h2 id="licensing">Licensing<a class="anchor" aria-label="anchor" href="#licensing"></a>
 </h2>
-<p>Copyright 2022-2023 Environment and Climate Change Canada<br>
-Copyright 2023-2024 Province of Alberta</p>
+<p>Copyright 2022-2023 Integrated Ecological Research and Poisson Consulting Ltd.<br>
+Copyright 2024 Province of Alberta</p>
 <p>The documentation is released under the <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">CC BY 4.0 License</a></p>
 <p>The code is released under the <a href="https://www.apache.org/licenses/LICENSE-2.0" class="external-link">Apache License 2.0</a></p>
 </div>
@@ -149,8 +152,8 @@ Copyright 2023-2024 Province of Alberta</p>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/poissonconsulting/bbousuite/" class="external-link">Browse source code</a></li>
-<li><a href="https://github.com/poissonconsulting/bbousuite/issues" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/LandSciTech/bbousuite/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/LandSciTech/bbousuite/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
@@ -184,12 +187,14 @@ Copyright 2023-2024 Province of Alberta</p>
 <a href="https://www.poissonconsulting.ca/author/seb-dalgarno/" class="external-link">Seb Dalgarno</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3658-4517" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>John Boulanger <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-8222-1445" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>
-<a href="https://www.poissonconsulting.ca/author/ayla-pearson/" class="external-link">Ayla Pearson</a> <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0001-7388-1222" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<a href="https://www.poissonconsulting.ca/author/ayla-pearson/" class="external-link">Ayla Pearson</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-7388-1222" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>
 <a href="https://www.poissonconsulting.ca/author/joe-thorley/" class="external-link">Joe Thorley</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-7683-4592" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>Troy Hegel <br><small class="roles"> Author </small>   </li>
 <li>Barry Nobert <br><small class="roles"> Author </small>   </li>
+<li>Sarah Endicott <br><small class="roles"> Maintainer </small>   </li>
 <li>Dave Hervieux <br><small class="roles"> Author </small>   </li>
+<li><a href="authors.html">More about authors...</a></li>
 </ul>
 </div>
 
@@ -197,8 +202,8 @@ Copyright 2023-2024 Province of Alberta</p>
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="https://github.com/poissonconsulting/bbousuite/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/poissonconsulting/bbousuite/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://app.codecov.io/gh/poissonconsulting/bbousuite?branch=main" class="external-link"><img src="https://codecov.io/gh/poissonconsulting/bbousuite/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://github.com/LandSciTech/bbousuite/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/LandSciTech/bbousuite/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://app.codecov.io/gh/LandSciTech/bbousuite?branch=main" class="external-link"><img src="https://codecov.io/gh/LandSciTech/bbousuite/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
 </ul>
 </div>
 
@@ -207,7 +212,7 @@ Copyright 2023-2024 Province of Alberta</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://www.poissonconsulting.ca/author/seb-dalgarno/" class="external-link">Seb Dalgarno</a>, John Boulanger, <a href="https://www.poissonconsulting.ca/author/ayla-pearson/" class="external-link">Ayla Pearson</a>, <a href="https://www.poissonconsulting.ca/author/joe-thorley/" class="external-link">Joe Thorley</a>, Troy Hegel, Barry Nobert, Dave Hervieux.</p>
+  <p>Developed by <a href="https://www.poissonconsulting.ca/author/seb-dalgarno/" class="external-link">Seb Dalgarno</a>, John Boulanger, <a href="https://www.poissonconsulting.ca/author/ayla-pearson/" class="external-link">Ayla Pearson</a>, <a href="https://www.poissonconsulting.ca/author/joe-thorley/" class="external-link">Joe Thorley</a>, Troy Hegel, Barry Nobert, Sarah Endicott, Dave Hervieux.</p>
 </div>
 
 <div class="pkgdown-footer-right">

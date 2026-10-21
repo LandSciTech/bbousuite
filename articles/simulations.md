@@ -18,14 +18,14 @@ surveys (for recruitment data). Realistic parameter values for
 survival/fecundity rates and population simulation were derived from
 observed values in anonymized example datasets. The simulated population
 is stable (i.e., lambda close to 1; table 4). See [this bbousims
-vignette](https://poissonconsulting.github.io/bbousims/articles/bbousims.html)
+vignette](https://LandSciTech.github.io/bbousims/articles/bbousims.html)
 for more information on how survival and recruitment data are simulated,
 given the parameter values in table 1 and table 2.
 
 Statistical methods compared include a Bayesian model with year as fixed
 effect, a Bayesian model with year as random effect, and a frequentist
 retro model. See [this bboutools
-vignette](https://poissonconsulting.github.io/bboutools/articles/methods.html)
+vignette](https://LandSciTech.github.io/bboutools/articles/methods.html)
 for more details on the statistical methods. All Bayesian models had
 uninformative priors.
 

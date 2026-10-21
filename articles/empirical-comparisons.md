@@ -15,7 +15,7 @@ We note that empirical comparisons are limited in that true parameter
 values are not known. Therefore, we can only conclude whether estimates
 are similar or different between approaches rather than infer bias. To
 fully explore estimators we also present
-[simulations](https://poissonconsulting.github.io/bbousuite/articles/simulations.html)
+[simulations](https://LandSciTech.github.io/bbousuite/articles/simulations.html)
 which allow assessment of bias and working characteristics across a full
 range of scenarios.
 
@@ -121,12 +121,11 @@ assumptions made in estimation of survival and recruitment.
 ### Empirical comparisons
 
 We use a 32 year field data set (data set “A” in
-[`bboudata`](https://poissonconsulting.github.io/bboudata/)) to compare
+[`bboudata`](https://LandSciTech.github.io/bboudata/)) to compare
 methodologies. For this data we use
-[`bbouretro`](https://poissonconsulting.github.io/bbouretro/) to
-estimate traditional and
-[`bboutools`](https://poissonconsulting.github.io/bboutools/) to
-estimate fixed and random effects survival, recruitment, and trend.
+[`bbouretro`](https://LandSciTech.github.io/bbouretro/) to estimate
+traditional and [`bboutools`](https://LandSciTech.github.io/bboutools/)
+to estimate fixed and random effects survival, recruitment, and trend.
 
 A comparison of estimates reveals similarity between fixed effect and
 traditional estimates (Figure 1). This result is intuitive given that
@@ -213,7 +212,7 @@ question is whether there are cases where random effects may create bias
 by dismissing low or high parameter estimates when they are actually
 occurring. To explore this question as well as overall performance of
 estimators we use
-[simulations](https://poissonconsulting.github.io/bbousuite/articles/simulations.html).
+[simulations](https://LandSciTech.github.io/bbousuite/articles/simulations.html).
 Unlike empirical comparisons, simulations allow assessment of
 performance with known true parameter values therefore allowing further
 assessment of overall estimate performance.

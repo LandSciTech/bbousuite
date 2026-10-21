@@ -9,16 +9,16 @@ population growth rates. A shiny app is also available (\`bboushiny\`).
 
 Useful links:
 
-- <https://github.com/poissonconsulting/bbousuite>
+- <https://github.com/LandSciTech/bbousuite>
 
-- <https://poissonconsulting.github.io/bbousuite/>
+- <https://LandSciTech.github.io/bbousuite/>
 
-- Report bugs at <https://github.com/poissonconsulting/bbousuite/issues>
+- Report bugs at <https://github.com/LandSciTech/bbousuite/issues>
 
 ## Author
 
-**Maintainer**: Ayla Pearson <ayla@poissonconsulting.ca>
-([ORCID](https://orcid.org/0000-0001-7388-1222))
+**Maintainer**: Sarah Endicott <Sarah.Endicott@ec.gc.ca> (Took over
+package maintenance October 2026)
 
 Authors:
 
@@ -27,6 +27,9 @@ Authors:
 
 - John Boulanger <boulange@ecological.bc.ca>
   ([ORCID](https://orcid.org/0000-0001-8222-1445))
+
+- Ayla Pearson <ayla@poissonconsulting.ca>
+  ([ORCID](https://orcid.org/0000-0001-7388-1222))
 
 - Joe Thorley <joe@poissonconsulting.ca>
   ([ORCID](https://orcid.org/0000-0002-7683-4592))
