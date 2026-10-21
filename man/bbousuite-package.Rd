@@ -18,12 +18,13 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Ayla Pearson \email{ayla@poissonconsulting.ca} (\href{https://orcid.org/0000-0001-7388-1222}{ORCID})
+\strong{Maintainer}: Sarah Endicott \email{Sarah.Endicott@ec.gc.ca} (Took over package maintenance October 2026)
 
 Authors:
 \itemize{
   \item Seb Dalgarno \email{seb@poissonconsulting.ca} (\href{https://orcid.org/0000-0002-3658-4517}{ORCID})
   \item John Boulanger \email{boulange@ecological.bc.ca} (\href{https://orcid.org/0000-0001-8222-1445}{ORCID})
+  \item Ayla Pearson \email{ayla@poissonconsulting.ca} (\href{https://orcid.org/0000-0001-7388-1222}{ORCID})
   \item Joe Thorley \email{joe@poissonconsulting.ca} (\href{https://orcid.org/0000-0002-7683-4592}{ORCID})
   \item Troy Hegel \email{troy.hegel@gov.ab.ca}
   \item Barry Nobert \email{barry.nobert@gov.ab.ca}

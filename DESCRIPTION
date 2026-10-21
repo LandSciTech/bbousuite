@@ -6,7 +6,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0002-3658-4517")),
     person("John", "Boulanger", , "boulange@ecological.bc.ca", role = "aut",
            comment = c(ORCID = "0000-0001-8222-1445")),
-    person("Ayla", "Pearson", , "ayla@poissonconsulting.ca", role = c("aut", "cre"),
+    person("Ayla", "Pearson", , "ayla@poissonconsulting.ca", role = c("aut"),
            comment = c(ORCID = "0000-0001-7388-1222")),
     person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = "aut",
            comment = c(ORCID = "0000-0002-7683-4592")),
