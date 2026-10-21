@@ -53,11 +53,11 @@ The `bbou`suite is a set of R packages [@r_core_team_2024] to facilitate simulat
 
 It consists of:  
 
-- [`bboudata`](https://poissonconsulting.github.io/bboudata/), a collection of simulated and anonymized empirical survival and recruitment datasets.  
-- [`bboutools`](https://poissonconsulting.github.io/bboutools/), a set of functions to estimate population growth in a Bayesian or Maximum Likelihood (ML) framework, implemented under the hood using the `Nimble` R package [@de_valpine_programming_2017].  
-- [`bboushiny`](https://poissonconsulting.github.io/bboushiny/), a Graphical User Interface (GUI) to `bboutools` (\autoref{fig:bboushiny}).    
-- [`bbouretro`](https://poissonconsulting.github.io/bbouretro/), a set of functions to estimate population growth using traditional frequentist methods.  
-- [`bbousims`](https://poissonconsulting.github.io/bbousims/), a set of functions to simulate survival and recruitment data from hypothetical radio-collaring and composition surveys.  
+- [`bboudata`](https://LandSciTech.github.io/bboudata/), a collection of simulated and anonymized empirical survival and recruitment datasets.  
+- [`bboutools`](https://LandSciTech.github.io/bboutools/), a set of functions to estimate population growth in a Bayesian or Maximum Likelihood (ML) framework, implemented under the hood using the `Nimble` R package [@de_valpine_programming_2017].  
+- [`bboushiny`](https://LandSciTech.github.io/bboushiny/), a Graphical User Interface (GUI) to `bboutools` (\autoref{fig:bboushiny}).    
+- [`bbouretro`](https://LandSciTech.github.io/bbouretro/), a set of functions to estimate population growth using traditional frequentist methods.  
+- [`bbousims`](https://LandSciTech.github.io/bbousims/), a set of functions to simulate survival and recruitment data from hypothetical radio-collaring and composition surveys.  
 
 Each R package has a website with function documentation, a 'Get Started' guide and vignettes. 
 
@@ -82,19 +82,19 @@ However, the primary goal of these tools is to forecast boreal caribou populatio
 
 # Overview of methods
 Survival is estimated from the monthly fate of radio-collared adult females, with an option to include uncertain mortalites in the total monthly mortalities prior to model fitting. 
-`bbouretro` uses the staggered entry Kaplan-Meier method [@pollock_survival_1989], as outlined in the [`bbouretro` methods article](https://poissonconsulting.github.io/bbouretro/articles/retro-methods.html#survival-s). 
-`bboutools` uses a generalized linear mixed-effects model (GLMM) approach. A full model description can be found in the [`bboutools` methods article](https://poissonconsulting.github.io/bboutools/articles/methods.html#survival-model).
+`bbouretro` uses the staggered entry Kaplan-Meier method [@pollock_survival_1989], as outlined in the [`bbouretro` methods article](https://LandSciTech.github.io/bbouretro/articles/retro-methods.html#survival-s). 
+`bboutools` uses a generalized linear mixed-effects model (GLMM) approach. A full model description can be found in the [`bboutools` methods article](https://LandSciTech.github.io/bboutools/articles/methods.html#survival-model).
 
 Recruitment is estimated from annual aerial composition surveys. 
-`bbouretro` follows methods in DeCesare et al. [-@decesare_estimating_2012], as outlined in the [`bbouretro` methods article](https://poissonconsulting.github.io/bbouretro/articles/retro-methods.html#recruitment-r). 
-`bboutools` uses a GLMM approach. A full model description can be found in the [`bboutools` methods article](https://poissonconsulting.github.io/bboutools/articles/methods.html#recruitment-model).
+`bbouretro` follows methods in DeCesare et al. [-@decesare_estimating_2012], as outlined in the [`bbouretro` methods article](https://LandSciTech.github.io/bbouretro/articles/retro-methods.html#recruitment-r). 
+`bboutools` uses a GLMM approach. A full model description can be found in the [`bboutools` methods article](https://LandSciTech.github.io/bboutools/articles/methods.html#recruitment-model).
 The model includes demographic stochasticity through the binomial distributions. 
 Groups are aggregated by year prior to model fitting.
 The calf sex ratio is fixed and can be adjusted by the user, with default of 0.5.
 The female proportion of the adult population can be estimated from counts of cows and bulls or fixed, with a default of 0.65, which accounts for higher mortality of males [@smith_2004].
 In `bbouretro` and `bboutools`, estimated recruitment is the female calf recruitment, adjusted following DeCesare et al. [-@decesare_estimating_2012], which accounts for recruitment of calves into the yearling/adult age class at the end of the caribou year.
 
-Population growth ($\lambda$) is estimated using the Hatter-Bergerud equation [@hatter_moose_1991] presented above. More details can be found in the [`bbouretro` methods article](https://poissonconsulting.github.io/bbouretro/articles/retro-methods.html#population-growth-lambda).
+Population growth ($\lambda$) is estimated using the Hatter-Bergerud equation [@hatter_moose_1991] presented above. More details can be found in the [`bbouretro` methods article](https://LandSciTech.github.io/bbouretro/articles/retro-methods.html#population-growth-lambda).
 
 ## Comparison of methods
 
@@ -111,10 +111,10 @@ In addition, with `bboutools` models that are fit in a Bayesian framework:
 - posterior distributions of parameters can be combined to produce derived parameters (e.g., population growth) with full information about uncertainty retained.  
 
 We compared estimates from `bbouretro` and `bboutools` on anonymized empirical and simulated data.
-Comprehensive results and discussion can be found in the [empirical comparisons article](https://poissonconsulting.github.io/bbousuite/articles/empirical-comparisons.html) and [simulations analysis article](https://poissonconsulting.github.io/bbousuite/articles/simulations.html), respectively.
+Comprehensive results and discussion can be found in the [empirical comparisons article](https://LandSciTech.github.io/bbousuite/articles/empirical-comparisons.html) and [simulations analysis article](https://LandSciTech.github.io/bbousuite/articles/simulations.html), respectively.
 Based on our findings (e.g., \autoref{fig:bias}), we propose `bboutools` as a standardized method for comparing estimates across jurisdictions. 
 In particular, random effects models are recommended by default when there are $\geq$ 5 years of data [@kery_bayesian_2011]. 
-More discussion on the benefits of random effects models can be found [in the simulations analysis article](https://poissonconsulting.github.io/bbousuite/articles/simulations.html#discussion).
+More discussion on the benefits of random effects models can be found [in the simulations analysis article](https://LandSciTech.github.io/bbousuite/articles/simulations.html#discussion).
 
 ![Bias (% difference) in annual population growth point estimates and known population growth for 100 simulations and 20 years, by sample size and statistical method.\label{fig:bias}](figures/lambda-bias.png)
 

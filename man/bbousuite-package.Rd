@@ -11,9 +11,9 @@ The `bbou` suite of packages are designed to allow analysis (`bbouretro` and `bb
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/poissonconsulting/bbousuite}
-  \item \url{https://poissonconsulting.github.io/bbousuite/}
-  \item Report bugs at \url{https://github.com/poissonconsulting/bbousuite/issues}
+  \item \url{https://github.com/LandSciTech/bbousuite}
+  \item \url{https://LandSciTech.github.io/bbousuite/}
+  \item Report bugs at \url{https://github.com/LandSciTech/bbousuite/issues}
 }
 
 }
