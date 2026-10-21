@@ -18,8 +18,8 @@
 #' A string of markdown code indicating the licensing of the code
 #' and documentation
 #' @export
-#' @examples
 #' @keywords internal
+#' @examples
 #' licensing_md()
 licensing_md <- function() {
   "## Licensing
